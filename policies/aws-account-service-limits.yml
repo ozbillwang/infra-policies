@@ -1,0 +1,6 @@
+policies:
+- name: account-service-limits
+  resource: account
+  filters:
+  - type: service-limit
+    threshold: 50

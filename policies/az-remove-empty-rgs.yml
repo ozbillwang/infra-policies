@@ -1,0 +1,8 @@
+policies:
+- name: remove-empty-rgs
+  description: remove empty resource groups from subscription
+  resource: azure.resourcegroup
+  filters:
+  - type: empty-group
+  #actions:
+  #- type: delete

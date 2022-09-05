@@ -1,0 +1,6 @@
+policies:
+- name: s3-bucket-encryption-policy-absent
+  resource: s3
+  description: s3 bucket without encryption s3 to required
+  filters:
+  - type: no-encryption-statement
