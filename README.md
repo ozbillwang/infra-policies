@@ -17,7 +17,7 @@ common commands
 # validate the policy
 $ custodian validate policies/az-nic-not-attached.yml
 
-# dry rn
+# dry run
 $ custodian run --dry-run -s out policies/az-nic-not-attached.yml
 
 # see reprot
