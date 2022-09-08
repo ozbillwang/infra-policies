@@ -21,5 +21,5 @@ $ custodian validate policies/az-nic-not-attached.yml
 $ custodian run --dry-run -s out policies/az-nic-not-attached.yml
 
 # see reprot
-$ custodian report -s out policies/az-nic-not-attached.yml --format grid
+$ custodian report --format grid -s out policies/az-nic-not-attached.yml
 ```
